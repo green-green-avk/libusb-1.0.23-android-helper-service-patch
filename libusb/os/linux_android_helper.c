@@ -20,6 +20,24 @@
 #include "libusbi.h"
 #include "linux_usbfs.h"
 
+/* <=---=> */
+
+/* Hello Musl C (Alpine Linux at least) */
+
+/* Evaluate EXPRESSION, and repeat as long as it returns -1 with `errno'
+   set to EINTR.  */
+
+#ifndef TEMP_FAILURE_RETRY
+#define TEMP_FAILURE_RETRY(expression) \
+  (__extension__							      \
+    ({ long int __result;						      \
+       do __result = (long int) (expression);				      \
+       while (__result == -1L && errno == EINTR);			      \
+       __result; }))
+#endif
+
+/* <=---=> */
+
 static ssize_t readAll(const int fd, void *data, size_t len) {
 	ssize_t r = 0;
 	do {
