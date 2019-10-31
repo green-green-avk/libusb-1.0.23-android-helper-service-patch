@@ -1,3 +1,7 @@
+# This patch
+
+`--enable-android-helper=<service_socket_name>` option has been added in order to provide usb access through Android API. See also [the server side source code](https://github.com/green-green-avk/AnotherTermLite/tree/master/libusbmanager).
+
 # libusb
 
 [![Build Status](https://travis-ci.org/libusb/libusb.svg?branch=master)](https://travis-ci.org/libusb/libusb)
