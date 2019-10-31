@@ -1,6 +1,6 @@
 # This patch
 
-`--enable-android-helper=<service_socket_name>` option has been added in order to provide usb access through Android API. See also [the server side source code](https://github.com/green-green-avk/AnotherTermLite/tree/master/libusbmanager).
+`--enable-android-helper=<service_socket_name>` option has been added into the `configure` script in order to provide usb access through Android API. See also [the server side source code](https://github.com/green-green-avk/AnotherTermLite/tree/master/libusbmanager).
 
 # libusb
 
