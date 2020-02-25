@@ -1,10 +1,12 @@
 # This patch
 
-`--enable-android-helper=<service_socket_name>` option has been added into the `configure` script in order to provide usb access through Android API.
+`--enable-android-helper=<service_socket_name>` option has been added into the `configure` script in order to provide usb access through Android API with help of Another Term [Lite] built-in service (so, no device rooting required).
 
 See also:
-* [The server side source code](https://github.com/green-green-avk/AnotherTermLite/tree/master/libusbmanager).
-* [How to use](https://github.com/green-green-avk/AnotherTermLite/wiki/Installing-libusb-for-nonrooted-Android).
+* [The server side source code (Another Term)](https://github.com/green-green-avk/AnotherTerm/tree/master/libusbmanager).
+* [The server side source code (Another Term Lite)](https://github.com/green-green-avk/AnotherTermLite/tree/master/libusbmanager).
+* [How to use (Another Term)](https://github.com/green-green-avk/AnotherTerm/wiki/Installing-libusb-for-nonrooted-Android).
+* [How to use (Another Term Lite)](https://github.com/green-green-avk/AnotherTermLite/wiki/Installing-libusb-for-nonrooted-Android).
 
 # libusb
 
