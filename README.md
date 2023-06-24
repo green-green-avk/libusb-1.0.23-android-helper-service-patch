@@ -1,5 +1,11 @@
 # Non-rooted Android [LibUsb Manager](https://github.com/green-green-avk/LibUsbManager) support variant
 
+<kbd>***Deprecated***</kbd>
+
+Superseded by <https://github.com/green-green-avk/libusb/tree/v1.0.26-android-libusbmanager>
+
+---
+
 `--enable-android-helper=<service_socket_name>` option has been added into the `configure` script in order to provide USB access through Android API with help of **Another Term [Lite]** built-in service (so, no device rooting is required).
 
 See also:
